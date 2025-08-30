@@ -13,7 +13,7 @@ A modern, responsive Todo application built with **Next.js**, **TypeScript**, **
 
 ## Screenshots
 
-![Todo App Screenshot](./Screenshot.png) <!-- Add your screenshot if available -->
+![Todo App Screenshot](./public/Screenshot.png) <!-- Add your screenshot if available -->
 
 ## Getting Started
 
