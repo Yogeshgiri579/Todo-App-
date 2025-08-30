@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo App
+
+A modern, responsive Todo application built with **Next.js**, **TypeScript**, **Redux Toolkit**, and **Tailwind CSS**.
+
+## Features
+
+- 🚀 **Next.js + TypeScript** for fast, type-safe development
+- 📝 **CRUD operations** for todos (Add, Edit, Update, Delete, Complete)
+- ⚡ **Redux Toolkit** for state management
+- 🎨 **Tailwind CSS** for beautiful, responsive, and dark mode-ready UI
+- 🔔 **react-hot-toast** for user notifications
+- ✨ Smooth animations and professional design
+
+## Screenshots
+
+![Todo App Screenshot](./Screenshot.png) <!-- Add your screenshot if available -->
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Run the development server
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+/app           # Next.js app directory
+/components    # Reusable UI components (TodoInput, TodoList, TodoItem)
+/redux         # Redux Toolkit slices and store
+/types         # TypeScript types
+/public        # Static assets
+```
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [react-hot-toast](https://react-hot-toast.com/)
+- [Heroicons](https://heroicons.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Customization
+
+- Easily switch color themes in `Tailwind CSS`
+- Update Redux logic in `/redux/todoSlice.ts`
+- Add more features as needed!
+
+## License
+
+MIT
+
+---
+
+**Made with ❤️ using Next.js, TypeScript, Redux, and Tailwind
